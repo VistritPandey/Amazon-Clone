@@ -14,6 +14,7 @@ function Product() {
                     <p>⭐⭐⭐⭐⭐</p>
                 </div>
             </div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/41ppKgnVLdL._AC_US160_FMwebp_QL70_.jpg" alt="" />
         </div>
     )
 }
