@@ -1,0 +1,11 @@
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyAS-ZlwQ6K1k50tbw1rLT1XeOkbhNbITjY",
+    authDomain: "vistrit-amaz0n.firebaseapp.com",
+    databaseURL: "https://vistrit-amaz0n.firebaseio.com",
+    projectId: "vistrit-amaz0n",
+    storageBucket: "vistrit-amaz0n.appspot.com",
+    messagingSenderId: "243054836079",
+    appId: "1:243054836079:web:f35bb5b76eb896fb11909a",
+    measurementId: "G-QZZ78KWZY9"
+  };
