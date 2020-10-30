@@ -1,0 +1,33 @@
+[debug] [2020-10-30T04:12:10.953Z] ----------------------------------------------------------------------
+[debug] [2020-10-30T04:12:10.955Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vistr\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-10-30T04:12:10.955Z] CLI Version:   8.14.1
+[debug] [2020-10-30T04:12:10.955Z] Platform:      win32
+[debug] [2020-10-30T04:12:10.955Z] Node Version:  v12.13.0
+[debug] [2020-10-30T04:12:10.956Z] Time:          Fri Oct 30 2020 09:42:10 GMT+0530 (India Standard Time)
+[debug] [2020-10-30T04:12:10.956Z] ----------------------------------------------------------------------
+[debug] [2020-10-30T04:12:10.956Z] 
+[debug] [2020-10-30T04:12:10.967Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-30T04:12:10.968Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2020-10-30T04:12:13.003Z] [hub] writing locator at C:\Users\vistr\AppData\Local\Temp\hub-vistrit-amaz0n.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub\u001b[22m"}}
+[info] +  functions: Using node@12 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@12 from host."}}
+[debug] [2020-10-30T04:12:15.069Z] defaultcredentials: writing to file C:\Users\vistr\AppData\Roaming\firebase\vistritpandey_gmail_com_application_default_credentials.json
+[debug] [2020-10-30T04:12:15.072Z] Setting GAC to C:\Users\vistr\AppData\Roaming\firebase\vistritpandey_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\vistr\\AppData\\Roaming\\firebase\\vistritpandey_gmail_com_application_default_credentials.json"}}
+[debug] [2020-10-30T04:12:17.116Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/vistrit-amaz0n/webApps/-/config  
+ 
+[debug] [2020-10-30T04:12:18.407Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 30 Oct 2020 04:12:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2020-10-30T04:12:22.514Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2020-10-30T04:12:22.515Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2020-10-30T04:12:22.515Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\vistr\\.cache\\firebase\\emulators\\ui-v1.2.2\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\vistr\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.2.2\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2020-10-30T04:12:22.604Z] Web / API server started at http://localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at http://localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\vistr\Desktop\Amazon-Clone\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\vistr\\Desktop\\Amazon-Clone\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2020-10-30T04:12:23.041Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2020-10-30T04:12:23.041Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2020-10-30T04:12:23.041Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2020-10-30T04:12:23.042Z] [worker-~diagnostic~-8d6376ed-777c-4b38-ac0b-a7cc66c2cb65]: Assigning socketPath: \\?\pipe\C:\Users\vistr\Desktop\Amazon-Clone\amazon-clone\functions\11384 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8d6376ed-777c-4b38-ac0b-a7cc66c2cb65]: Assigning socketPath: \\\\?\\pipe\\C:\\Users\\vistr\\Desktop\\Amazon-Clone\\amazon-clone\\functions\\11384"}}
+[debug] [2020-10-30T04:12:23.042Z] [worker-~diagnostic~-8d6376ed-777c-4b38-ac0b-a7cc66c2cb65]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-8d6376ed-777c-4b38-ac0b-a7cc66c2cb65]: BUSY"}}
