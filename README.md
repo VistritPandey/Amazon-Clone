@@ -1,5 +1,7 @@
 # Deployed at https://vistrit-amaz0n.web.app/
 
+The repo has the payment methods added, but the deployed version doesn't have it because to deploy it, you need to pay a monthly fees
+
 ## Available Scripts
 
 In the project directory, you can run:
