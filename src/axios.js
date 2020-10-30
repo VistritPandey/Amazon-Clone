@@ -1,11 +1,7 @@
-import React from 'react'
+import axios from "axios";
 
-function axios() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const instance = axios.create({
+  baseURL: 'https://us-central1-challenge-4b2b2.cloudfunctions.net/api'
+});
 
-export default axios
+export default instance;
