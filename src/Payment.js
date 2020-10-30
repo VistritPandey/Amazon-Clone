@@ -1,7 +1,26 @@
 import React from 'react'
 import './Payment.css'
+import { useStateValue } from "./StateProvider";
+import CheckoutProduct from "./CheckoutProduct";
+import { Link, useHistory } from "react-router-dom";
+import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
+import CurrencyFormat from "react-currency-format";
+import { getBasketTotal } from "./reducer";
+import axios from './axios';
+import { db } from "./firebase";
 
 function Payment() {
+    const [{ basket, user }, dispatch] = useStateValue();
+    const history = useHistory();
+
+    const stripe = useStripe();
+    const elements = useElements();
+
+    const [succeeded, setSucceeded] = useState(false);
+    const [processing, setProcessing] = useState("");
+    const [error, setError] = useState(null);
+    const [disabled, setDisabled] = useState(true);
+    const [clientSecret, setClientSecret] = useState(true);
     return (
         <div className='payment'>
             <div className='payment__container'>
