@@ -33,6 +33,10 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+        <Route path="/payment">
+             <Header />
+            <Payment />
+          </Route>
           <Route path="/login">
             <Login />
           </Route>
@@ -43,10 +47,6 @@ function App() {
           <Route path="/">
              <Header />
             <Home />
-          </Route>
-          <Route path="/payment">
-             <Header />
-            
           </Route>
         </Switch>
       </div>
